@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color : #bdcebe;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 986px;
+}
+
+#left h1 {
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+#right a{
+    margin-top: 20px;
+    position: relative;
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#right a:hover{
+    color: red;
+}
+
+#left{
+    height: 65px;
+    width: auto;
+    text-align: center;
+}
+
+#right{
+    height: 65px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#profilo{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 160px;
+    height: 180px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    background-color: beige;
+    border-radius: 0.5em;    
+    font-size: 48px;
+}
+
+.propic{
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/standard_user.png');
+    background-size: cover;
+}
+
+.user{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 50%;
+    margin: 100px 0 0 -150px;
+    font-size: 0.4em;
+    text-align: center;
+}
+
+.username{
+    font-size: 0.3em;
+    margin: 0 auto;
+    margin-top: 25px;
+    color: #787c82;
+}
+
+.post_piaciuti{
+    display: flex;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.liked_tit{
+    margin-top: 30px;
+}
+
+.liked_tit h1{
+    font-size: 25px;
+}
+
+.liked_tit p{
+    color: #456056;
+    flex-direction: column;
+    font-size: 20px;
+}
